@@ -1,0 +1,56 @@
+    body{
+        min-height: 100vh;
+        display: flex;
+        background-image: url(https://w0.peakpx.com/wallpaper/560/191/HD-wallpaper-anime-landscape-ambient-japan-pretty.jpg);
+        background-position: center;
+        background-size: cover;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 14px;
+        margin: 0%;
+    }
+    main{
+        max-width: 426px;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: auto;
+        text-align: center;
+        padding: 2rem;
+        transition: all 0.3s;
+    }
+
+    img{
+        border-radius: 50%; 
+        width: 100%;
+        max-width: 300px;
+    }
+    .footer__img{
+        margin: 0 10px;
+        width: 32px;
+        transition: all 0.3s;
+    }
+    .footer__img:hover {
+        filter: brightness(130%);
+        transform: scale(1.5);
+    }
+
+    h1{
+        margin: 32px 0;
+        letter-spacing: 2px;
+    }
+    h2{
+        letter-spacing: 2px
+    }
+    
+    p{
+        letter-spacing: 1px;
+        margin-bottom: 16px;
+    }
+
+    @media (min-width: 854px){
+        body{
+            font-size: 14px;
+        }
+        main{
+            max-width: 640px;
+        }
+    }
